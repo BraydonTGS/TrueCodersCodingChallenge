@@ -1,6 +1,6 @@
 ﻿using TrueCodersCodingChallenge.Console.WeekOne;
 
-namespace TrueCodersCodingChallenge.Tests.WeekOne
+namespace TrueCodersCodingChallenge.Tests
 {
     [TestClass]
     public class DetermineFactorial_WeekOne_Tests

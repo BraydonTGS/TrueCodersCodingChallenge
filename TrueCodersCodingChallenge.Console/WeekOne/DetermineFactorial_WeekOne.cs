@@ -8,6 +8,7 @@
     /// </summary>
     public static class DetermineFactorial_WeekOne
     {
+        #region DetermineFactorial
         /// <summary>
         /// Determine the Factorial of a Number using Recursion.
         /// 
@@ -28,6 +29,8 @@
 
             return num * DetermineFactorial(num - 1);
         }
+
+        #endregion
 
     }
 }
