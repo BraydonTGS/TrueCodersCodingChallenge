@@ -21,7 +21,7 @@ namespace TrueCodersCodingChallenge.Console.WeekTwo
         /// <typeparam name="T"></typeparam>
         /// <param name="array"></param>
         /// <returns></returns>
-        public static T[]? UniqueElementsWithinAnArray<T>(T[] array) => 
+        public static T[]? UniqueElementsWithinAnArray<T>(T[] array)=> 
             array is null || array.Length is 0 ? array : array
             .GroupBy(x => x)
             .Where(x => x.Count() == 1)
