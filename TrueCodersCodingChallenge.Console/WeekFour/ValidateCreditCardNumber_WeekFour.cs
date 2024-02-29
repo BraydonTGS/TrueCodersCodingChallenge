@@ -7,7 +7,7 @@ namespace TrueCodersCodingChallenge.Console.WeekFour
     /// </summary>
     public class ValidateCreditCardNumber_WeekFour
     {
-        private  CreditCardValidator _validator { get; set; }
+        private readonly CreditCardValidator _validator;
         public ValidateCreditCardNumber_WeekFour(CreditCardValidator validator) => _validator = validator;  
         public bool ValidateCreditCardNumber(string creditCardNumber) => _validator.Validate(creditCardNumber).IsValid;
 
